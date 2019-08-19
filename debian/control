@@ -1,0 +1,13 @@
+Source: ros-dashing-dynamixel-sdk
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Homepage: http://wiki.ros.org/dynamixel_sdk
+Standards-Version: 3.9.2
+
+Package: ros-dashing-dynamixel-sdk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-dashing-ros-workspace
+Description: This package is wrapping version of ROBOTIS Dynamxel SDK for ROS 2.
+ The ROBOTIS Dynamixel SDK, or SDK, is a software development library that provides Dynamixel control functions for packet communication. The API is designed for Dynamixel actuators and Dynamixel-based platforms.
