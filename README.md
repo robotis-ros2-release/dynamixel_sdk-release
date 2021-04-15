@@ -1,3 +1,29 @@
+## dynamixel_sdk (foxy) - 3.7.40-1
+
+The packages in the `dynamixel_sdk` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy --track foxy dynamixel_sdk --edit` on `Thu, 15 Apr 2021 07:43:13 -0000`
+
+These packages were released:
+- `dynamixel_sdk`
+- `dynamixel_sdk_custom_interfaces`
+- `dynamixel_sdk_examples`
+
+Version of package(s) in repository `dynamixel_sdk`:
+
+- upstream repository: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+- release repository: https://github.com/robotis-ros2-release/dynamixel_sdk-release.git
+- rosdistro version: `3.7.30-1`
+- old version: `3.7.30-1`
+- new version: `3.7.40-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.6`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## dynamixel_sdk (dashing) - 3.7.40-10
 
 The packages in the `dynamixel_sdk` repository were released into the `dashing` distro by running `/usr/bin/bloom-release --rosdistro dashing --track dashing dynamixel_sdk` on `Thu, 15 Apr 2021 07:36:42 -0000`
