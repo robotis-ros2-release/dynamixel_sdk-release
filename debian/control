@@ -1,0 +1,12 @@
+Source: ros-galactic-dynamixel-sdk-custom-interfaces
+Section: misc
+Priority: optional
+Maintainer: willson <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-builtin-interfaces, ros-galactic-rosidl-default-generators, ros-galactic-ros-workspace, ros-galactic-rosidl-typesupport-fastrtps-c, ros-galactic-rosidl-typesupport-fastrtps-cpp
+Homepage: http://wiki.ros.org/dynamixel_sdk
+Standards-Version: 3.9.2
+
+Package: ros-galactic-dynamixel-sdk-custom-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-builtin-interfaces, ros-galactic-rosidl-default-runtime, ros-galactic-ros-workspace
+Description: ROS2 custom interface examples using ROBOTIS DYNAMIXEL SDK
