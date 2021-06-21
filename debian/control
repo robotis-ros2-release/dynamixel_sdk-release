@@ -1,0 +1,12 @@
+Source: ros-rolling-dynamixel-sdk-examples
+Section: misc
+Priority: optional
+Maintainer: willson <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-dynamixel-sdk, ros-rolling-dynamixel-sdk-custom-interfaces, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: http://wiki.ros.org/dynamixel_sdk
+Standards-Version: 3.9.2
+
+Package: ros-rolling-dynamixel-sdk-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-dynamixel-sdk, ros-rolling-dynamixel-sdk-custom-interfaces, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: ROS2 examples using ROBOTIS DYNAMIXEL SDK
