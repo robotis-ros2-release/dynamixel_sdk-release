@@ -1,0 +1,12 @@
+Source: ros-galactic-dynamixel-sdk-examples
+Section: misc
+Priority: optional
+Maintainer: willson <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-dynamixel-sdk, ros-galactic-dynamixel-sdk-custom-interfaces, ros-galactic-rclcpp, ros-galactic-ros-workspace
+Homepage: http://wiki.ros.org/dynamixel_sdk
+Standards-Version: 3.9.2
+
+Package: ros-galactic-dynamixel-sdk-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-dynamixel-sdk, ros-galactic-dynamixel-sdk-custom-interfaces, ros-galactic-rclcpp, ros-galactic-ros-workspace
+Description: ROS2 examples using ROBOTIS DYNAMIXEL SDK
