@@ -1,0 +1,12 @@
+Source: ros-foxy-dynamixel-sdk-examples
+Section: misc
+Priority: optional
+Maintainer: willson <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-lint-auto, ros-foxy-ament-lint-common, ros-foxy-dynamixel-sdk, ros-foxy-dynamixel-sdk-custom-interfaces, ros-foxy-rclcpp, ros-foxy-ros-workspace
+Homepage: http://wiki.ros.org/dynamixel_sdk
+Standards-Version: 3.9.2
+
+Package: ros-foxy-dynamixel-sdk-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-dynamixel-sdk, ros-foxy-dynamixel-sdk-custom-interfaces, ros-foxy-rclcpp, ros-foxy-ros-workspace
+Description: ROS2 examples using ROBOTIS DYNAMIXEL SDK
